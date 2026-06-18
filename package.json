@@ -12,7 +12,9 @@
     "test": "set USE_MOCK_MODEL=1 && mocha --recursive --require dotenv/config",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
-    "sync-envs": "node sync-env-files"
+    "sync-envs": "node sync-env-files",
+    "start": "node bootstrap.js",
+    "start:dev": "nodemon bootstrap.js"
   },
   "keywords": [],
   "author": "Resilience17",
