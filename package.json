@@ -14,6 +14,7 @@
     "commitlint": "commitlint --edit",
     "sync-envs": "node sync-env-files",
     "start": "node bootstrap.js",
+    "build": "...",
     "start:dev": "nodemon bootstrap.js"
   },
   "keywords": [],
